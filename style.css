@@ -257,7 +257,7 @@ img {
   opacity: 1;
   border-radius: 50%;
   left: 25px;
-  top: 60px;
+  top: 70px;
 }
 
 .coworker__name {
@@ -380,18 +380,20 @@ img {
     flex-direction: column;
     text-align: center;
     margin-top: 0;
-    grid-gap: var(--margin-spacing-s) 0;
+    grid-gap: 0;
 }
+
 
 .cards__p:first-of-type {
     order: 1;
     margin-top: 0;
     width: 100vw;
+    margin: var(--margin-spacing-s) 0;
 }
 
 .cards__p:last-of-type {
-    margin-top: var(--margin-spacing-s);
     width: 100vw;
+    margin: var(--margin-spacing-s) 0;
 }
 
 .cards__img:first-child {
