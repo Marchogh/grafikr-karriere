@@ -195,6 +195,7 @@ img {
   margin-bottom: 25px;
   width: 100%;
   object-fit: cover;
+  cursor: pointer;
 }
 
 .container{
