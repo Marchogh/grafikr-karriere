@@ -250,7 +250,7 @@ img {
 }
 
 .coworker__name:hover > .coworker__image {
-  transition: opacity 1s ease;  
+  transition: opacity 0.4s ease;  
   height: 250px;
   width: 250px;
   object-fit: cover;
